@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_nim"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:hint="NIM" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:inputType="textPersonName"
+        android:lines="1"
+        android:hint="Nama"
+        android:id="@+id/edt_nama"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:inputType="textPersonName"
+        android:lines="1"
+        android:hint="Kelas"
+        android:id="@+id/edt_kelas"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:inputType="textPersonName"
+        android:lines="1"
+        android:hint="Tanggal Lahir"
+        android:id="@+id/edt_tanggal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Simpan"
+        android:id="@+id/btn_simpan"/>
+
+
+</LinearLayout>
